@@ -1,3 +1,3 @@
-import {getStatesByCountryId, getStatesByCountryName, getAllCountries} from './controller'
+import {getStatesByCountryId, getStatesByCountryName, getAllCountries, getAllStates} from './controller'
 
-export {getStatesByCountryId, getStatesByCountryName, getAllCountries};
+export {getStatesByCountryId, getStatesByCountryName, getAllCountries,getAllStates};

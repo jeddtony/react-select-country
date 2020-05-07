@@ -3,6 +3,9 @@ import states from './states';
 
 export const getAllCountries = () => countries;
 
+// This is just for testing purpose only, to be sure that the states are complete
+export const getAllStates = () => states;
+
 export const getStatesByCountryId = (countryId) => {
     let statesForCountry = states.filter(state => String(state.country_id) === String(countryId));
     return statesForCountry;
