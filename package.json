@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "test": "jest",
+    "main": "lib/index.js",
     "start": "styleguidist server",
     "build": "rollup -c",
     "prepublishOnly": "rm -rf lib && npm run build",
