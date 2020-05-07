@@ -17,6 +17,18 @@
     "collectCoverageOnlyFrom": {
       "src/components/index.js": true
     },
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": [
+      "es6",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "unmockedModulePathPatterns": [
+      "react"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
