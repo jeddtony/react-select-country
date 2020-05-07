@@ -12,6 +12,11 @@
     "start": "styleguidist server",
     "build": "rollup -c"
   },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageOnlyFrom": {
+      "src/components/index.js": true
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
