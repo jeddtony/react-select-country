@@ -3,4 +3,4 @@
 
 import {CountryReactSelect, StateReactSelect } from "components/country-states/CountryStateReactSelect";
 
-export {CountryReactSelect, StateReactSelect};
+export default {CountryReactSelect, StateReactSelect};

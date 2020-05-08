@@ -4,8 +4,8 @@ import {getStatesByCountryId, getAllCountries, getStatesByCountryName} from '../
 
 let selectedCountry = null; 
 
-export function CountryReactSelect(props) {
-    const [countryStates, setCountryState] = useState([]);
+export  function CountryReactSelect(props) {
+    // const [countryStates, setCountryState] = useState([]);
 
     const handleChange = (selectedOption) => {
         selectedCountry = selectedOption.id;
@@ -25,12 +25,16 @@ export function CountryReactSelect(props) {
 
 
 export function StateReactSelect() {
+    const handleChange = () => {
+        console.log('doing nothing')
+    }
+
     return(
         <div>
         <Select 
         // value={selectedOption}
         onChange={handleChange}
-        {...props}
+        
         options={getStatesByCountryId(selectedCountry)}
         />
     </div>
